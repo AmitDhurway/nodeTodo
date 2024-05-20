@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit's Site</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="main w-full min-h-screen bg-zinc-900 text-white p-10">
+    <a href="/" class="text-blue-400">Go Back Home</a>
+
+    <form class="" action="/edit" method="post">
+      <input class="bg-zinc-800 w-1/4 block px-5 py-2 mt-5 rounded-xl outline-none" name="previous" type="text"
+        value="<%= filename %>" placeholder="Previous Name">
+      <input class="bg-zinc-800 w-1/4 block px-5 py-2 mt-3 rounded-xl outline-none" name="new" type="text"
+        placeholder="New Name">
+      <input class="mt-3 bg-yellow-600 p-2 rounded-xl" type="submit" value="Update Name">
+    </form>
+
+
+  </div>
+</body>
+
+</html>
